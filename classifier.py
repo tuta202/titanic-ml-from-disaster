@@ -45,3 +45,4 @@ preprocessor = ColumnTransformer(transformers=[
 x_train = preprocessor.fit_transform(x_train)
 
 print(x_train)
+
